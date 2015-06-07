@@ -344,7 +344,6 @@
         // Content
         indexCell.text(index);
         addressCell.text(address);
-        privkeyCell.text(privkey);
         // Visibility
         if (!showIndex) {
             indexCell.addClass("invisible");
@@ -352,9 +351,7 @@
         if (!showAddress) {
             addressCell.addClass("invisible");
         }
-        if (!showPrivKey) {
-            privkeCell.addClass("invisible");
-        }
+
         DOM.addresses.append(row);
     }
 
